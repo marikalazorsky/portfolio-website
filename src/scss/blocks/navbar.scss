@@ -1,0 +1,37 @@
+.navbar {
+  width: 100%;
+  height: 4rem;
+  background-color: #e41c6f;
+  display: flex;
+  box-shadow: 1.2rem 1.2rem 1.5rem #555;
+
+  .navbar-link {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0 3rem;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    position: relative;
+    transition: color 0.2s;
+
+    &:hover {
+      color: $white;
+    }
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0.2rem;
+      background-color: $white;
+      right: -15%;
+      bottom: -0.3rem;
+      transition: width 0.2s;
+    }
+
+    &:hover::before {
+      width: 130%;
+    }
+  }
+}
