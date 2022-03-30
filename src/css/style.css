@@ -71,6 +71,15 @@ html {
       -ms-flex-align: center;
           align-items: center; }
 
+.section-heading {
+  font-size: 5rem;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  margin-bottom: 15rem;
+  border-bottom: 0.3rem solid #333;
+  text-shadow: 0.2rem 0.2rem 0.5rem #555; }
+
 .section-1 {
   width: 100%;
   height: 100vh;
@@ -126,6 +135,224 @@ html {
     text-transform: uppercase;
     letter-spacing: 0.3rem; }
 
+.section-2 {
+  width: 100%;
+  height: 100%;
+  padding: 15rem 0 10rem 0;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .section-2 .progress-bars-wrapper {
+    margin-bottom: 10rem; }
+    .section-2 .progress-bars-wrapper .progress-bar {
+      width: 60rem;
+      height: 3rem;
+      background-color: #ccc;
+      margin: 1.5rem 0;
+      border-radius: 0.3rem;
+      -webkit-box-shadow: 0.2rem 0.2rem 1rem #555;
+              box-shadow: 0.2rem 0.2rem 1rem #555;
+      position: relative; }
+      .section-2 .progress-bars-wrapper .progress-bar .progress-text {
+        position: absolute;
+        left: 1rem;
+        font-size: 1.5rem;
+        color: #fff; }
+        .section-2 .progress-bars-wrapper .progress-bar .progress-text span {
+          margin: 0 0.5rem;
+          font-size: 1.8rem;
+          font-weight: 700; }
+      .section-2 .progress-bars-wrapper .progress-bar .progress-percent {
+        width: 90%;
+        height: 100%;
+        background-color: #e41c6f;
+        border-radius: 0.3rem; }
+  .section-2 .services {
+    width: 100%;
+    height: 30vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .section-2 .services .service {
+      text-align: center; }
+      .section-2 .services .service:first-child, .section-2 .services .service:last-child {
+        -ms-flex-item-align: start;
+            align-self: flex-start; }
+      .section-2 .services .service i {
+        font-size: 10rem;
+        color: #888;
+        margin-bottom: 2rem;
+        text-shadow: 0.1rem 0.1rem 0.5rem #555; }
+      .section-2 .services .service h2 {
+        font-size: 2rem;
+        color: #fff;
+        background-color: #777;
+        width: 25rem;
+        letter-spacing: 0.3rem;
+        -webkit-transform: skew(-10deg);
+            -ms-transform: skew(-10deg);
+                transform: skew(-10deg);
+        -webkit-box-shadow: 0.2rem 0.2rem 0.5rem #555;
+                box-shadow: 0.2rem 0.2rem 0.5rem #555; }
+
+.section-3 {
+  width: 100%;
+  height: 100%;
+  padding: 10rem 0;
+  background-color: #eef;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .section-3 .projects-wrapper {
+    width: 80%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .section-3 .projects-wrapper .project {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      margin: 1rem;
+      background-color: #fff;
+      -webkit-box-shadow: 0.3rem 0.3rem 0.5rem #777;
+              box-shadow: 0.3rem 0.3rem 0.5rem #777;
+      position: relative;
+      overflow: hidden;
+      -webkit-transition: -webkit-box-shadow 0.5s;
+      transition: -webkit-box-shadow 0.5s;
+      -o-transition: box-shadow 0.5s;
+      transition: box-shadow 0.5s;
+      transition: box-shadow 0.5s, -webkit-box-shadow 0.5s; }
+      .section-3 .projects-wrapper .project:hover {
+        -webkit-box-shadow: 1rem 1rem 1rem #777;
+                box-shadow: 1rem 1rem 1rem #777; }
+      .section-3 .projects-wrapper .project:hover .project-text {
+        top: 5rem;
+        -webkit-transition: top 0.3s 0.3s;
+        -o-transition: top 0.3s 0.3s;
+        transition: top 0.3s 0.3s; }
+      .section-3 .projects-wrapper .project .project-text {
+        text-align: center;
+        letter-spacing: 0.1rem;
+        position: absolute;
+        top: -10rem;
+        -webkit-transition: top 0.3s;
+        -o-transition: top 0.3s;
+        transition: top 0.3s;
+        z-index: 10; }
+        .section-3 .projects-wrapper .project .project-text .project-name {
+          font-size: 3rem;
+          font-weight: 700;
+          color: #333;
+          text-transform: capitalize; }
+        .section-3 .projects-wrapper .project .project-text .project-technologies {
+          font-size: 1.8rem;
+          color: #e41c6f; }
+      .section-3 .projects-wrapper .project:hover .project-img {
+        opacity: 0.2; }
+      .section-3 .projects-wrapper .project .project-img {
+        width: 40rem;
+        -webkit-transition: opacity 0.3s;
+        -o-transition: opacity 0.3s;
+        transition: opacity 0.3s; }
+      .section-3 .projects-wrapper .project:hover .project-link {
+        bottom: 5rem;
+        -webkit-transition: bottom 0.3s 0.3s;
+        -o-transition: bottom 0.3s 0.3s;
+        transition: bottom 0.3s 0.3s; }
+      .section-3 .projects-wrapper .project .project-link {
+        font-size: 2rem;
+        font-weight: 500;
+        color: #333;
+        letter-spacing: 0.1rem;
+        border: 0.3rem solid #e41c6f;
+        padding: 0 1rem;
+        background-color: #fff;
+        position: absolute;
+        bottom: -5rem;
+        -webkit-transition: bottom 0.3s;
+        -o-transition: bottom 0.3s;
+        transition: bottom 0.3s; }
+
+.section-4 {
+  width: 100%;
+  height: 70vh;
+  background-color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
+  .section-4 .section-4-heading {
+    color: #fff;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-color: #fff;
+    margin-bottom: 5rem; }
+  .section-4 .contact-form {
+    width: 50rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .section-4 .contact-form input,
+    .section-4 .contact-form textarea {
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      background-color: #eef;
+      font-size: 1.5rem;
+      border: 0.2rem solid #e41c6f;
+      color: #555; }
+    .section-4 .contact-form textarea {
+      height: 10rem;
+      max-height: 15rem;
+      max-width: 100%; }
+    .section-4 .contact-form .contact-form-btn {
+      background-color: #e41c6f;
+      color: #fff;
+      text-transform: uppercase;
+      letter-spacing: 1rem;
+      cursor: pointer; }
+
 .navbar {
   width: 100%;
   height: 4rem;
@@ -161,3 +388,29 @@ html {
       transition: width 0.2s; }
     .navbar .navbar-link:hover::before {
       width: 130%; }
+
+.footer {
+  width: 100%;
+  height: 30vh;
+  background-color: #222;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .footer .social-media {
+    margin-bottom: 5rem; }
+    .footer .social-media .social-media-link {
+      margin: 0 2rem;
+      padding: 0.7rem;
+      background-color: #e41c6f;
+      border-radius: 0.5rem;
+      display: inline-block; }
+      .footer .social-media .social-media-link i {
+        font-size: 3rem;
+        color: #fff; }
+  .footer .copyright {
+    color: #aaa;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    font-weight: 300;
+    text-align: center; }
