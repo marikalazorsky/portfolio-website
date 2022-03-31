@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <script src="js/main.js"></script>
+    
   </head>
   <body>
     <div class="container">
 
       <!-- Section 1 -->
-      <section class="section-1 center">
+      <section class="section-1 center" id ="home">
         <h1 class="section-1-heading">
           Web Developer
         </h1>
@@ -25,56 +25,56 @@
 
       <!-- Navbar -->
       <nav class="navbar center">
-        <a href="#" class="navbar-link">Home</a>
-        <a href="#" class="navbar-link">About</a>
-        <a href="#" class="navbar-link">Portfolio</a>
-        <a href="#" class="navbar-link">Contact</a>
+        <a href="#home" class="navbar-link">Home</a>
+        <a href="#about" class="navbar-link">About</a>
+        <a href="#projects" class="navbar-link">Portfolio</a>
+        <a href="#contact" class="navbar-link">Contact</a>
       </nav>
       <!-- End of Navbar -->
 
       <!-- Section 2 -->
-      <section class="section-2">
+      <section class="section-2" id="about">
         <h1 class="section-heading section-2-heading">About Me</h1>
         <div class="progress-bars-wrapper">
           <div class="progress-bar">
             <p class="progress-text">
-              HTML <span>97</span>%
+              HTML <span></span>%
             </p>
             <div class="progress-percent"></div>
           </div>
           <div class="progress-bar">
             <p class="progress-text">
-              CSS <span>89</span>%
+              CSS <span></span>%
             </p>
             <div class="progress-percent"></div>
           </div>
           <div class="progress-bar">
             <p class="progress-text">
-              JavaScript <span>85</span>%
+              JavaScript <span></span>%
             </p>
             <div class="progress-percent"></div>
           </div>
           <div class="progress-bar">
             <p class="progress-text">
-              SASS <span>87</span>%
+              SASS <span></span>%
             </p>
             <div class="progress-percent"></div>
           </div>
           <div class="progress-bar">
             <p class="progress-text">
-              ReactJS <span>80</span>%
+              ReactJS <span></span>%
             </p>
             <div class="progress-percent"></div>
           </div>
           <div class="progress-bar">
             <p class="progress-text">
-              NodeJS <span>70</span>%
+              NodeJS <span></span>%
             </p>
             <div class="progress-percent"></div>
           </div>
           <div class="progress-bar">
             <p class="progress-text">
-              MongoDB <span>50</span>%
+              MongoDB <span></span>%
             </p>
             <div class="progress-percent"></div>
           </div>
@@ -102,7 +102,7 @@
       <!-- End Of Section 2 -->
 
       <!-- Section 3 -->
-      <section class="section-3">
+      <section class="section-3" id="projects">
         <h1 class="section-heading section-3-heading">My Projects</h1>
         <div class="projects-wrapper center">
           <div class="project">
@@ -183,7 +183,7 @@
       <!-- End Of Section 3 -->
       
       <!-- Section 4 -->
-      <section class="section-4">
+      <section class="section-4" id ="contact">
         <h1 class="section-heading section-4-heading">Contact Me</h1>
         <form class="contact-form center">
           <input type="text" placeholder="Name">
@@ -197,16 +197,16 @@
       <!-- Footer -->
       <footer class="footer center">
         <div class="social-media">
-          <a href="#" class="social-media-link">
+          <a href="#none" class="social-media-link">
             <i class="fab fa-github-square"></i>
           </a>
-          <a href="#" class="social-media-link">
+          <a href="#none" class="social-media-link">
             <i class="fab fa-youtube"></i>
           </a>
-          <a href="#" class="social-media-link">
+          <a href="#none" class="social-media-link">
             <i class="fab fa-facebook-square"></i>
           </a>
-          <a href="#" class="social-media-link">
+          <a href="#none" class="social-media-link">
             <i class="fab fa-instagram-square"></i>
           </a>
         </div>
@@ -216,5 +216,7 @@
       <!-- End Of Footer -->
 
     </div>
+
+    <script src="js/main.js"></script>
   </body>
 </html>

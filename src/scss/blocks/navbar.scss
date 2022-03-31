@@ -4,6 +4,8 @@
   background-color: #e41c6f;
   display: flex;
   box-shadow: 1.2rem 1.2rem 1.5rem #555;
+  position: absolute;
+  z-index: 300;
 
   .navbar-link {
     font-size: 1.7rem;
@@ -34,4 +36,14 @@
       width: 130%;
     }
   }
+
+  .change {
+    color: $white;
+  }
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 100;
 }
