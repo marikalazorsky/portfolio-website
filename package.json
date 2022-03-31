@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d build"
   },
   "author": "Marina Hiuk",
   "license": "ISC",
+  "homepage": "https://marikalazorsky.github.io/portfolio-website",
   "devDependencies": {
     "browser-sync": "^2.26.13",
     "del": "^6.0.0",
@@ -21,5 +22,8 @@
     "gulp-sass": "^4.1.0",
     "gulp-uglifyjs": "^0.6.2",
     "imagemin-pngquant": "^9.0.1"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
